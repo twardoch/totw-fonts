@@ -1,0 +1,28 @@
+#include:
+# - gx
+# - nadyezhdaslone
+# - otetest
+# - smpcurmm
+# - totopfr
+# - varia/160413-EvenOddTT
+title: Adam Twardoch
+tagline: Adam Twardoch’s test site
+description: FontLab, MyFonts, Monotype, Variable Fonts, OpenType, Unicode
+url: http://twardoch.github.io/
+#baseurl: '/'
+#paginate: 5
+author:
+    name: Adam Twardoch
+    url: https://github.com/twardoch/
+    email: adam+github@twardoch.com
+version: 1.0.0
+
+gems:
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jemoji
+    - jekyll-mentions
+
+encoding: utf-8
+
+#theme: lanyon: http://lanyon.getpoole.com/

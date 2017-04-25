@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="sidebar-overlay layout-reverse">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+
+    {% include header.html %}      
+
+      <article class="container content">
+        {{ content }}
+      </article>
+
+      <footer class="footer">
+        <div class="container">
+          <p>
+            &copy; {{ site.time | date: '%Y' }} <a href="{{ site.github.owner_url }}/">{{ site.github.owner_name }}</a>
+          </p>
+        </div>
+      </footer>
+
+    {% comment %}
+    {% include footer.html %}      
+    {% endcomment %}
+
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

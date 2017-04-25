@@ -1,0 +1,49 @@
+.breadcrumb {
+    display: block;
+    padding: .3em;
+    overflow: hidden;
+
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    list-style: none;
+
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
+
+.breadcrumb li {
+    float: left;
+    margin-right: 0rem;
+    margin-left: .5rem;
+
+    font-size: 85%;
+}
+
+.breadcrumb li a {
+    position: relative;
+
+    display: block;
+    float: left;
+
+    text-decoration: none;
+
+    color: #999;
+}
+
+
+
+.breadcrumb > .active a {
+    color: #515151;
+}
+
+.breadcrumb > li + li:before {
+    content: "";
+}
+
+.breadcrumb > li:before {
+    margin-right: 0rem;
+    margin-left: .7rem;
+
+    content: "\003E\00a0";
+
+    color: #999;
+}

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="page">
+  {% if page.url !="/" %}
+    {% include breadcrumbs.html %}
+  {% endif %}
+  {% comment %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% endcomment %}
+  {{ content }}
+</div>

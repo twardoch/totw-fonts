@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 3rem;
+
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-size: 85%;
+
+    border-top: 1px solid #eee;
+}
+.footer-title {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: #505050;
+}
+.footer-title a {
+    color: #505050;
+}
+.footer-title small {
+    font-size: 75%;
+    font-weight: 400;
+
+    letter-spacing: 0;
+
+    color: #c0c0c0;
+}
+
+@media (max-width: 48em) {
+    .footer-title {
+        text-align: center;
+    }
+    .footer-title small {
+        display: none;
+    }
+}
