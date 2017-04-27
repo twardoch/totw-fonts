@@ -1,0 +1,11 @@
+pymdown-extensions>=3.0.0
+markdown-include>=0.5.1
+mdx_outline>=1.2.1
+mdx_sections>=0.1
+mdx_customspanclass>=1.1.1
+mdx_cite>=1.0
+mdx_collapse>=0.1.0
+fontawesome-markdown>=0.2.6
+markdown-attr-plus>=0.3.0
+git+https://github.com/mkszk/mdx_figcap.git
+git+https://github.com/twardoch/markdown-steroids.git
