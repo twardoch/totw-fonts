@@ -4,11 +4,13 @@ A collection of open-source OpenType fonts curated by Adam Twardoch.
 
 *Last updated: 2017-04-27*
 
-This collection of >2,000 open-source fonts includes only fonts that I personally consider valuable — either because they have an excellent design, large character sets, a large number of styles, or preferrably all of the above. The **totw** collection focuses mainly on fonts for longer texts, though a small selection of display and decorative fonts is also included. I have not included simple geometric sanserifs, poorly drawn serifs, serif fonts that only come in one style or without italics, or fonts with tiny character sets. 
+This collection of >2,000 open-source fonts includes only fonts that I personally consider valuable — either because they have an excellent design, large character sets, a large number of styles, or preferrably all of the above. The **totw** collection focuses mainly on fonts for longer texts, though a small selection of display and decorative fonts is also included. I have not included simple geometric sanserifs, poorly drawn serifs, serif fonts that only come in one style or without italics, or fonts with tiny character sets. And it does not include clones of the Core 35 fonts, because there are too many of them. 
 
 Most fonts in this collection are licensed under the [SIL Open Font License (OFL)](./LICENSE.ofl). 
 
 Some fonts are licensed under the [Apache 2](./LICENSE.apache2) or [UFL](LICENSE./ufl). 
+
+The `src` folder contains scripts that are used to build the collection. These scripts for Mac OS X download the most recent versions of the fonts from various sources, preferrably the authors’ Github repos or websites, and only in some cases from secondary sources. 
 
 # Download collection
 
