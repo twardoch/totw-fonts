@@ -10,7 +10,7 @@ Most fonts in this collection are licensed under the [SIL Open Font License (OFL
 
 Some fonts are licensed under the [Apache 2](./LICENSE.apache2) or [UFL](LICENSE./ufl). 
 
-The `src` folder contains scripts that are used to build the collection. These scripts for Mac OS X download the most recent versions of the fonts from various sources, preferrably the authors’ Github repos or websites, and only in some cases from secondary sources. 
+The `src` folder contains scripts that are used to build the collection. These scripts for Mac OS X download the most recent versions of the fonts from various sources, preferrably the authors’ Github repos or websites, and only in some cases from secondary sources. This collection is not updated automatically, but I plan to update it from time to time. 
 
 # Download collection
 
