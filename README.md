@@ -1,10 +1,10 @@
-# totw (Top of the WOFFs)
+# totw (Top of the WOFFs aka the Typefaces Open by TWardoch list)
 
 A collection of open-source OpenType fonts curated by Adam Twardoch. 
 
-This collection of >2,000 open-source fonts includes only fonts that I personally consider valuable — either because they have an excellent design, large character sets, a large number of styles, or preferrably all of the above. The **totw** collection focuses mainly on fonts for longer texts, though a small selection of display and decorative fonts is also included. I have not included simple geometric sanserifs, poorly drawn serifs, serif fonts that only come in one style or without italics, or fonts with tiny character sets. 
-
 *Last updated: 2017-04-27*
+
+This collection of >2,000 open-source fonts includes only fonts that I personally consider valuable — either because they have an excellent design, large character sets, a large number of styles, or preferrably all of the above. The **totw** collection focuses mainly on fonts for longer texts, though a small selection of display and decorative fonts is also included. I have not included simple geometric sanserifs, poorly drawn serifs, serif fonts that only come in one style or without italics, or fonts with tiny character sets. 
 
 Most fonts in this collection are licensed under the [SIL Open Font License (OFL)](./LICENSE.ofl). 
 
