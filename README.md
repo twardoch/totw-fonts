@@ -1,15 +1,27 @@
 # totw (Top of the WOFFs)
 
-A collection of open-source OpenType fonts curated by Adam Twardoch
+A collection of open-source OpenType fonts curated by Adam Twardoch. 
 
-Updated: 2017-04-27
+This collection of >2,000 open-source fonts includes only fonts that I personally consider valuable — either because they have an excellent design, large character sets, a large number of styles, or preferrably all of the above. The **totw** collection focuses mainly on fonts for longer texts, though a small selection of display and decorative fonts is also included. I have not included simple geometric sanserifs, poorly drawn serifs, serif fonts that only come in one style or without italics, or fonts with tiny character sets. 
 
-Most fonts in this collection are licensed under the [SIL Open Font License (OFL)](./LICENSE.ofl). Some fonts are licensed under the [Apache 2](./LICENSE.apache2) or [UFL](LICENSE./ufl). 
+*Last updated: 2017-04-27*
 
-# Download
+Most fonts in this collection are licensed under the [SIL Open Font License (OFL)](./LICENSE.ofl). 
+
+Some fonts are licensed under the [Apache 2](./LICENSE.apache2) or [UFL](LICENSE./ufl). 
+
+# Download collection
 
 * [**totw-fonts.zip**](./download/totw-fonts.zip) (98.5 MB, 795 fonts)
 * [**totw-fonts-noto.zip**](./download/totw-fonts-noto.zip) (92.6 MB, 1,138 fonts)
+
+# Browse collection
+
+* [all totw non-Noto fonts](https://github.com/twardoch/totw/tree/master/download/totw-fonts)
+* [all totw Noto fonts](https://github.com/twardoch/totw/tree/master/download/totw-fonts-noto)
+* [all totw fonts by license and format](https://github.com/twardoch/totw/tree/master/fonts)
+
+# Collection includes
 
 ### Superfamilies
 
