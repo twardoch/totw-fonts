@@ -1,4 +1,4 @@
-# totw (Top of the WOFFs aka the Typefaces Open by TWardoch list)
+# totw (Top of the WOFFs)
 
 A collection of open-source OpenType fonts curated by Adam Twardoch. 
 
