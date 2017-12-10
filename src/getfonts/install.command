@@ -21,7 +21,7 @@ if [ ! -x "$(which jq)" ]; then
 	brew install jq
 else
 	echo "# Updating 'jq'..."
-	brew update jq
+	brew upgrade jq && brew cleanup jq
 fi 
 
 # Check if grealpath is installed
@@ -30,5 +30,15 @@ if [ ! -x "$(which grealpath)" ]; then
 	brew install coreutils
 else
 	echo "# Updating 'coreutils'..."
-	brew update coreutils
+	brew upgrade coreutils && brew cleanup coreutils
 fi 
+
+# Check if jq is installed
+if [ ! -f "/usr/local/bin/svn" ]; then
+	echo "# Installing 'svn'..."
+	brew install svn
+else
+	echo "# Updating 'jq'..."
+	brew upgrade svn && brew cleanup svn
+fi 
+
