@@ -14,8 +14,8 @@ The `src` folder contains scripts that are used to build the collection. These s
 
 # Download collection
 
-* [**totw-fonts.zip**](./download/totw-fonts.zip) (98.5 MB, 795 fonts)
-* [**totw-fonts-noto.zip**](./download/totw-fonts-noto.zip) (92.6 MB, 1,138 fonts)
+* [**download all fonts except Noto**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts.zip)
+* [**download all Noto fonts except CJK**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts-noto.zip)
 
 # Browse collection
 
