@@ -21,11 +21,7 @@ if [ ! -x "$(which jq)" ]; then
 	brew install jq
 else
 	echo "# Updating 'jq'..."
-<<<<<<< HEAD
 	brew upgrade jq && brew cleanup jq
-=======
-	brew update jq
->>>>>>> c5752dfa31f3eda3110c64e49c0de624e8d1a32b
 fi 
 
 # Check if grealpath is installed
@@ -34,7 +30,6 @@ if [ ! -x "$(which grealpath)" ]; then
 	brew install coreutils
 else
 	echo "# Updating 'coreutils'..."
-<<<<<<< HEAD
 	brew upgrade coreutils && brew cleanup coreutils
 fi 
 
@@ -46,8 +41,3 @@ else
 	echo "# Updating 'jq'..."
 	brew upgrade svn && brew cleanup svn
 fi 
-
-=======
-	brew update coreutils
-fi 
->>>>>>> c5752dfa31f3eda3110c64e49c0de624e8d1a32b
