@@ -12,10 +12,10 @@ Some fonts are licensed under the [Apache 2](./LICENSE.apache2) or [UFL](LICENSE
 
 The `src` folder contains scripts that are used to build the collection. These scripts for Mac OS X download the most recent versions of the fonts from various sources, preferrably the authors’ Github repos or websites, and only in some cases from secondary sources. This collection is not updated automatically, but I plan to update it from time to time. 
 
-# Download collection (version 2017-12-10)
+# Download collection ZIPs (version 2017-12-10)
 
-* [**download all fonts except Noto**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts.zip)
-* [**download all Noto fonts except CJK**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts-noto.zip)
+* [**download ZIP: all fonts except Noto**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts.zip)
+* [**download ZIP: all Noto fonts except CJK**](https://github.com/twardoch/totw-fonts/releases/download/2017-12-10/totw-fonts-noto.zip)
 
 # Browse collection
 
